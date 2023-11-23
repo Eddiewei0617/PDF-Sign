@@ -1,0 +1,42 @@
+{
+  "name": "pdf-signing",
+  "version": "0.1.1",
+  "private": false,
+  "main": "components/index.js",
+  "files": [
+    "components",
+    "context",
+    "util",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.2.5",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^2.15.349",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  },
+  "peerDependencies": {
+    "next": "12.2.5",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^2.15.349",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-icons": "^4.4.0",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
